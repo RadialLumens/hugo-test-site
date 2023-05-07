@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo Testing Site (Github)</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Hugo Testing Site (Github)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 May 2023 17:29:23 -0400</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notes</title>
+      <link>http://example.org/posts/notes/</link>
+      <pubDate>Tue, 02 May 2023 17:29:23 -0400</pubDate>
+      
+      <guid>http://example.org/posts/notes/</guid>
+      <description>Heading 1 is used as the title of the post. Highlighting in Markdown using either == or inline HTML such as &amp;lt;mark&amp;gt;&amp;lt;/mark&amp;gt; are not properly rendered with Hugo. This post was added to the menu area by editing the front matter of this post as shown1: --- menu: main: weight: 1 --- Note that the code above is written inside a markdown document but is actually using yaml syntax. To ensure that proper syntax highlighting and coloring is performed, you must specify the language at the start of the code block as shown: ```language_here code_here ``` To escape code blocks, use four backticks (````).</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>http://example.org/posts/my-first-post/</link>
+      <pubDate>Tue, 02 May 2023 12:51:59 -0400</pubDate>
+      
+      <guid>http://example.org/posts/my-first-post/</guid>
+      <description>This is Heading 2 Some text under heading 2. This is some bold text.
+This is Heading 3 Some text here. Followed by some italics.
+What about Heading 2 again? Seems like everything is working as it should. Visit Hugo&amp;rsquo;s Quick Start guide to follow the steps created to make this initial testing website!</description>
+    </item>
+    
+    <item>
+      <title>Overflow Post</title>
+      <link>http://example.org/posts/overflow-post/</link>
+      <pubDate>Mon, 01 May 2023 17:20:35 -0400</pubDate>
+      
+      <guid>http://example.org/posts/overflow-post/</guid>
+      <description>Example post to show how overflow posts are handled on the front page. You will notice that the content written here is not displayed on the front page rather only the title itself. This post was created on 2023-May-5, but was modified to show as the first post in the site history when viewing the Recent Posts section on the front page.
+To modify the amount of recent posts that are shown in detail on the front page, change the following variable found in the config.</description>
+    </item>
+    
+  </channel>
+</rss>
